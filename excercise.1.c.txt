@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>//scanf() ,printf()
+
+int main()
+{
+    int age,kenyan;
+    printf("please enter the age:");
+    scanf("%d" ,&age);
+    printf("please enter the kenyan:");
+    scanf("%d",&kenyan);
+if(age>18 && kenyan){
+    printf("eligible to vote" );
+}
+else{
+   printf("not eligible to vote");
+}
+    return 0;
+}
+
+
+please enter the age:12
+please enter the kenyan:ethiopian
+not eligible to vote
+
+=== Code Execution Successful ===
